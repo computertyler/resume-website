@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-glcn-u$+c)n&od@r&iv8!xy*va*9z!inm)rn#5l0w%509%jr%a
 DEBUG = True
 
 ALLOWED_HOSTS = ['TylerO.pythonanywhere.com']
+#ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "resume_app.apps.ResumeAppConfig",
 ]
 
 MIDDLEWARE = [
